@@ -1,0 +1,17 @@
+{
+	"name": "LS_SQL_Server_Connection",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "az-sql-database.database.windows.net",
+			"database": "sql-db-database",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "az-local-host",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDNFMkZFNTRGLUNCRTEtNEZGNi1CRDU5LTFENTk1RjFDRjE4OV8xNTkwY2FmOC1mYzc4LTQyNGEtOGU0NC1kOWRkYjcyNzZkYWMiDQp9"
+		}
+	}
+}

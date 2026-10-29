@@ -1,0 +1,25 @@
+{
+	"name": "trigger_event",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_Stogare_trigger",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/scorce/blobs/scource_data",
+			"blobPathEndsWith": ".txt",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/2f9cdb1b-de8f-4d3c-bdb0-51907d97a3b8/resourceGroups/Practice-Use/providers/Microsoft.Storage/storageAccounts/adl4storageaccount",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "Azure-Data-Facto",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "be084d04-561a-414d-ac83-8e6e744e1897",
+		"tenantId": "632daa1d-4510-4899-bbe7-5e709347b372"
+	}
+}
