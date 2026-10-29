@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Azure-Data-Facto"
+		},
+		"LS_SQL_Server_Connection_password": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://adl4storageaccount.dfs.core.windows.net/"
+		},
+		"LS_SQL_Server_Connection_properties_typeProperties_server": {
+			"value": "az-sql-database.database.windows.net"
+		},
+		"LS_SQL_Server_Connection_properties_typeProperties_database": {
+			"value": "sql-db-database"
+		},
+		"LS_SQL_Server_Connection_properties_typeProperties_userName": {
+			"value": "az-local-host"
+		},
+		"trigger_event_properties_typeProperties_scope": {
+			"value": "/subscriptions/2f9cdb1b-de8f-4d3c-bdb0-51907d97a3b8/resourceGroups/Practice-Use/providers/Microsoft.Storage/storageAccounts/adl4storageaccount"
+		}
+	}
+}
