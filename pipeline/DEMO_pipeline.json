@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "Read_Customer_Tbl",
+				"description": "This is reading the customers items.",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
